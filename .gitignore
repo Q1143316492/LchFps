@@ -24,5 +24,7 @@
 # --- Project-specific: ignore all content for now ---
 /Content/
 
-# --- Project-specific: ignore Plugins folder for now ("plug" 目录) ---
-/Plugins/
+# --- Plugins ---
+# Track Plugins source, but ignore build artifacts
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
